@@ -1,1 +1,1 @@
-plugins { id 'com.android.application' version '8.13.2' apply false }
+plugins { id 'com.android.application' }; android { namespace 'com.example.campushub'; compileSdk 35; defaultConfig { applicationId 'com.example.campushub'; minSdk 23; targetSdk 35; versionCode 1; versionName '1.0' } }; dependencies { implementation 'androidx.constraintlayout:constraintlayout:2.1.4' }
